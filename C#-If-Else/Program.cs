@@ -13,7 +13,7 @@ static bool CheckIfEqual(int number1, int number2)
         isEqual = false;
         Console.WriteLine("The numbers are not equal");
     }
-    if (isEqual)
+    if (!isEqual)
     {
         int sum = number1 + number2;
         Console.WriteLine($"The sum of the numbers are: {sum}");
