@@ -1,7 +1,4 @@
 ﻿
-
-using System.Diagnostics.CodeAnalysis;
-
 static bool CheckIfEqual(int number1, int number2)
 {
     bool isEqual = false;
