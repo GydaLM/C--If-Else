@@ -1,5 +1,7 @@
 ﻿
 
+using System.Diagnostics.CodeAnalysis;
+
 static bool CheckIfEqual(int number1, int number2)
 {
     bool isEqual = false;
@@ -27,6 +29,19 @@ static bool CheckIfEqual(int number1, int number2)
 }
 Console.WriteLine($"The numbers are equal: {CheckIfEqual(3, 4)}");
 
+static bool checkIf30(int number1, int number2)
+{
+    int sum = number1 + number2;
+    if (number1 == 30 || number2 == 30 || sum == 30)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+Console.WriteLine($"One of the numbers or the sum of the numbers is 30: {checkIf30(26, 4)}");
 
 ////Misforstått oppgave 1
 //Console.WriteLine("\nThis is the result of the misunderstood assignement:");
